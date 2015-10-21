@@ -1,0 +1,10 @@
+{
+  "name": "which-license",
+  "version": "0.0.1",
+  "homepage": "https://github.com/andrewtweber/which-license",
+  "authors": [
+    "andrewtweber <andrew@midwestscc.com>"
+  ],
+  "description": "Which open source license should I use?",
+  "license": "MIT"
+}
