@@ -17,6 +17,8 @@
     <meta property="fb:app_id" content="{{ config('services.facebook.client_id') }}" />
 
     <link rel="canonical" href="{{ url($og_object->url ?: \Request::path()) }}">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ elixir('css/which.css') }}">
 
@@ -28,9 +30,17 @@
 
 <body>
 
+<div class="container">
+
 @yield('content')
 
-<script type="text/javascript" src="/js/vue.min.js"></script>
+</div>
+
+<footer class="text-center">
+	Made by <a href="http://github.com/andrewtweber">@andrewtweber</a>
+</footer>
+
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="{{ elixir('js/which.js') }}"></script>
 
 </body>

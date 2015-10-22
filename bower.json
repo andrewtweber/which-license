@@ -8,7 +8,6 @@
   "description": "Which open source license should I use?",
   "license": "MIT",
   "dependencies": {
-    "font-awesome": "~4.4.0",
-    "vue": "~0.12.16"
+    "font-awesome": "~4.4.0"
   }
 }

@@ -30,7 +30,6 @@ elixir(function(mix) {
 
     mix.copy(components + '/font-awesome/fonts', paths.fonts);
     mix.copy(components + '/font-awesome/css/font-awesome.min.css', paths.css);
-    mix.copy(components + '/vue/dist/vue.min.js', paths.js);
 
     mix.version([
         'css/which.css',

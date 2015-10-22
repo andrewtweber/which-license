@@ -2,6 +2,8 @@
 
 return [
 
+    'site_name' => 'Which Open Source License Should I Use?',
+
     /*
     |--------------------------------------------------------------------------
     | Application Debug Mode

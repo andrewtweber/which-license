@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'LicenseController@choose');
+Route::get('licenses/{license}', 'LicenseController@show');

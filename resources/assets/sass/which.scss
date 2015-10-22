@@ -1,2 +1,25 @@
-// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+body {
+    padding: 40px;
+}
 
+.panel {
+    font-size: 24pt;
+
+    p {
+        margin: 1em 0;
+    }
+}
+
+.license-content {
+    font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+footer {
+    padding: 40px;
+    font-size: 10pt;
+    color: #666;
+
+    a {
+        color: #888;
+    }
+}
