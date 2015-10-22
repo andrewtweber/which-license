@@ -6,5 +6,9 @@
     "andrewtweber <andrew@midwestscc.com>"
   ],
   "description": "Which open source license should I use?",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "font-awesome": "~4.4.0",
+    "vue": "~0.12.16"
+  }
 }
