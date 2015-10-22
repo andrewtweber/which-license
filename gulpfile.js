@@ -14,21 +14,23 @@ var elixir = require('laravel-elixir');
 var components = './resources/components';
 
 var paths = {
-    'publicCss': 'public/css/',
-    'publicJs': 'public/js/'
+    'css': 'public/css/',
+    'fonts': 'public/fonts/',
+    'js': 'public/js/'
 };
 
 elixir(function(mix) {
     mix.sass([
         'which.scss'
-    ], paths.publicCss + 'which.css');
+    ], paths.css + 'which.css');
 
     mix.scripts([
         'which.js'
-    ], paths.publicJs + 'which.js');
+    ], paths.js + 'which.js');
 
-    mix.copy(components + '/font-awesome/fonts', 'public/fonts');
-    mix.copy(components + '/font-awesome/css/font-awesome.min.css', 'public/css');
+    mix.copy(components + '/font-awesome/fonts', paths.fonts);
+    mix.copy(components + '/font-awesome/css/font-awesome.min.css', paths.css);
+    mix.copy(components + '/vue/dist/vue.min.js', paths.js);
 
     mix.version([
         'css/which.css',
