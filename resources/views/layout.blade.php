@@ -30,9 +30,27 @@
 
 <body>
 
-<div class="container">
+<div class="container-fluid">
+
+<div class="row">
+	<div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
 
 @yield('content')
+
+	</div>
+	<div class="col-sm-2 col-md-3">
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- OSS License Ad -->
+		<ins class="adsbygoogle"
+		     style="display:block"
+		     data-ad-client="ca-pub-2597949687258785"
+		     data-ad-slot="6091839023"
+		     data-ad-format="auto"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+	</div>
+</div>
 
 </div>
 

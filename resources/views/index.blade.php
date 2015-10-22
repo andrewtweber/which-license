@@ -3,6 +3,10 @@
 @section('content')
 
 <div class="panel panel-default">
+	<div class="panel-heading text-center">
+		<h1>Which Open Source License Should I Use?</h1>
+	</div>
+
 	<div class="panel-body text-center">
 
 		<div id="step-1" data-question="control">
@@ -36,8 +40,8 @@
 		</div>
 
 		<div class="buttons">
-			<a class="btn btn-lg btn-success" data-path="1">Yes</a>
-		    <a class="btn btn-lg btn-danger" data-path="0">No</a>
+			<a class="btn btn-lg btn-success" data-path="1"><span class="fa fa-check"></span> Yes</a>
+		    <a class="btn btn-lg btn-danger" data-path="0"><span class="fa fa-remove"></span> No</a>
 		</div>
 
 @foreach ($licenses as $license)

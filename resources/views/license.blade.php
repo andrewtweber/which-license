@@ -2,19 +2,19 @@
 
 @section('content')
 
+<p>
+	<a href="/" class="btn btn-info"><span class="fa fa-undo"></span> Start over</a>
+</p>
+
 <div class="panel panel-default">
 
 	<div class="panel-heading">
-		{{ $license->name }}
+		<h1>{{ $license->name }}</h1>
 	</div>
 
 	<div class="panel-body">
 
-		<div class="row">
-			<div class="col-md-8">
-				<textarea class="form-control license-content" rows="20">{{ $license->content }}</textarea>
-			</div>
-		</div>
+		<textarea class="form-control license-content" cols="80" rows="20">{{ $license->content }}</textarea>
 
 	</div>
 </div>
