@@ -55,7 +55,8 @@
 </div>
 
 <footer class="text-center">
-	Made by <a href="http://github.com/andrewtweber">@andrewtweber</a>
+	Made by <a href="http://github.com/andrewtweber">@andrewtweber</a> &bullet;
+	icon by Arthur Shlain from the Noun Project
 </footer>
 
 <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
